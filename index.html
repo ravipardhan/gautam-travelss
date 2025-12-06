@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gautam Travels India — Premium & Colorful</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .hero {
+      background-image: url('hero-get-inspired-23.jpg');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      color: white; /* Make text white to be visible on dark background */
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-color: rgba(0, 0, 0, 0.5); /* Add a dark overlay for better text readability */
+    }
+    .hero-inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 2rem; /* Space between text content and form */
+    }
+    .quick-inquiry-container {
+      background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent dark background */
+      padding: 2rem;
+      border-radius: 8px;
+      backdrop-filter: blur(5px); /* Frosted glass effect */
+      width: 100%;
+      max-width: 850px;
+    }
+    .quick-inquiry-container h4 {
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+      font-size: 1.5rem;
+      color: #fff;
+    }
+    .quick-inquiry-form {
+      display: flex;
+      flex-wrap: wrap; /* Allows items to stack on smaller screens */
+      gap: 1rem;
+      align-items: stretch; /* Make items same height */
+      justify-content: center;
+    }
+    .quick-inquiry-form .form-group {
+      flex: 1 1 200px; /* Flex-grow, flex-shrink, flex-basis */
+    }
+    .quick-inquiry-form input {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #555;
+      border-radius: 4px;
+      box-sizing: border-box;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.9);
+      color: #333;
+    }
+    .quick-inquiry-form .btn-cta {
+      flex-basis: 150px;
+      padding: 0.75rem 1.5rem;
+    }
+    /* Responsive adjustments for the form */
+    @media (max-width: 600px) {
+      .quick-inquiry-form .btn-cta {
+        flex-basis: 100%; /* Make button full width on small screens */
+      }
+    }
+    .top-bar {
+      background-color: #000;
+      padding: 0.5rem 0;
+      font-size: 0.9rem;
+      border-bottom: 1px solid #333;
+    }
+    .top-bar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+    .top-bar-left a, .top-bar-right a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 1rem;
+    }
+    .top-bar-left a:hover, .top-bar-right a:hover {
+      color: #007bff;
+    }
+    .top-bar-right a i {
+      margin-right: 0.3rem;
+    }
+    .welcome-bar {
+      background-color: #000; /* Black background */
+      color: #fff; /* White text for contrast */
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #333;
+    }
+    .welcome-bar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+    .welcome-text {
+      font-size: 30px;
+      font-weight: 600;
+      margin: 0;
+    }
+    .welcome-logo img {
+      height: 40px; /* Adjust the height of your logo */
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body class="theme-professional">
+  <div class="top-bar">
+    <div class="top-bar-inner">
+      <div class="top-bar-left">
+        <a href="https://www.facebook.com/share/1G31LJz2KH/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/gautamtravelsindia" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="top-bar-right">
+        <a href="https://wa.me/919643544132" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> +91 9643544132</a>
+        <a href="tel:+919643544132"><i class="fas fa-phone"></i> +91 9818174651
+</a>
+      </div>
+    </div>
+  </div>
+  <div class="welcome-bar">
+    <div class="welcome-bar-inner">
+      <p class="welcome-text">Gautam Travels India</p>
+      <div class="welcome-logo">
+        <a href="index.html">
+          <!-- Replace 'logo.png' with the path to your logo image -->
+          <img src="Gemini_Generated_Image_n4f1qpn4f1qpn4f1.png" alt="Gautam Travels India Logo">
+        </a>
+      </div>
+    </div>
+  </div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Seamless Travels, Professional Solutions</a>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Our Service</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content container">
+        <div class="hero-inner">
+          <div class="hero-left">
+            <h1>Premium travel. Bright design. Smooth rides.</h1>
+            <p class="hero-sub">Comfortable rides for every journey — whether it’s a quick city transfer, a punctual airport pickup, or a long outstation trip. Choose from sedans, SUVs, luxury cars, tempo travellers and coaches tailored to your needs.</p>
+
+            <div class="hero-features">
+              <span class="hero-feature">✔ Verified drivers</span>
+              <span class="hero-feature">🧼 Sanitized vehicles</span>
+              <span class="hero-feature">🕒 24/7 support</span>
+              <span class="hero-feature">💸 Transparent pricing</span>
+              <span class="hero-feature">⚡ Instant quotes</span>
+            </div>
+            <a href="book.html" class="btn-cta">Book your ride</a>
+          </div>
+          <div class="quick-inquiry-container">
+            <h4>Quick Inquiry</h4>
+            <form class="quick-inquiry-form" action="https://formsubmit.co/gautamtravelsncr@gmail.com" method="POST">
+              <div class="form-group">
+                <input type="text" id="quick-name" name="name" placeholder="Name *" required>
+              </div>
+              <div class="form-group">
+                <input type="tel" id="quick-phone" name="phone" placeholder="Phone No. *" required>
+              </div>
+              <input type="hidden" name="_subject" value="New Quick Inquiry from Website!">
+              <input type="hidden" name="_next" value="https://your-domain.com/thanks.html"> <!-- Replace with your live domain -->
+              <button type="submit" class="btn-cta">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlights">
+      <div class="card">
+        <h3>Wide Fleet</h3>
+        <p>Sedans, SUVs, luxury, Tempo Travellers and coaches — vehicles for all group sizes.</p>
+      </div>
+      <div class="card">
+        <h3>Secure Bookings</h3>
+        <p>Quick, transparent booking form with model selection and instant confirmation.</p>
+      </div>
+      <div class="card">
+        <h3>Premium Experience</h3>
+        <p>Colorful, modern interface and attentive service for every journey.</p>
+      </div>
+    </section>
+
+    <section class="fleet">
+      <h2>Popular Vehicles</h2>
+
+      <div class="fleet-grid">
+        <article class="fleet-item">
+          <img src="1.4 swift-colour-solid-fire-red.jpg" alt="Sedan Car">
+          <h4>Swift</h4>
+        </article>
+
+        <article class="fleet-item">
+          <img src="1.3 maruti-suzuki-wagon-r-23-jan-2019.jpg" alt="Dzire, Aura">
+          <h4>Wagner</h4>
+        </article>
+        
+        <article class="fleet-item">
+          <img src="1.6 baleno-nexa-500x500.webp" alt="Xent">
+          <h4>Baleno</h4>
+        </article>
+
+        
+        <article class="fleet-item">
+          <img src="Celerio.jpg" alt="Etios">
+          <h4>Celerio</h4>
+          </article>
+
+           <article class="fleet-item">
+           <img src="maruti-suzuki-dzire-lxi1752216345304.avif" alt="Hatchback Wagner">
+          <h4>Dzire</h4>
+        </article>
+
+        <article class="fleet-item">
+          <img src="Aura.jpg" alt="Swift">
+          <h4>Aura</h4>
+        </article>
+        <article class="fleet-item">
+          <img src="Xent.avif" alt="Baleno">
+          <h4>Xent  </h4>
+        </article>
+        <article class="fleet-item">
+          <img src="Etios.jpg" alt="Celerio">
+           <h4>Etios </h4>
+        </article>
+
+          <article class="fleet-item">
+           <img src="Amaze.jpeg" alt="Innova">
+          <h4>Amaze</h4>
+        </article>
+
+        <article class="fleet-item">
+          <img src="KIA.jpg" alt="Tempo Traveller 12 to 26 Seater ">
+          <h4>KIA  </h4>
+        </article>
+        
+        <article class="fleet-item">
+          <img src="Carence.webp" alt="Bus 27">
+          <h4>Carence</h4>
+        </article>
+        <article class="fleet-item">
+          <img src="1.8 toyota-innova-crysta-2-7-vx-mt-7-seater-petrol-640.jpg" alt="Bus 27 to 65 Seater">
+          <h4>Innova Crysta</h4>
+        </article>
+         <article class="fleet-item">
+          <img src="MUV.avif" alt="Bus 27 to 65 Seater">
+          <h4>MUV</h4>
+        </article>
+         <article class="fleet-item">
+          <img src="Triber.avif" alt="Bus 27 to 65 Seater">
+          <h4>Triber </h4>
+        </article>
+         <article class="fleet-item">
+          <img src="Rumion.avif" alt="Bus 27 to 65 Seater">
+          <h4>Rumion </h4>
+        </article>
+         <article class="fleet-item">
+          <img src="Moblio.avif" alt="Bus 27 to 65 Seater">
+          <h4>Moblio </h4>
+        </article>
+         <article class="fleet-item">
+          <img src="9 to 17 seater.webp" alt="Bus 27 to 65 Seater">
+          <h4>9 to 17 seater</h4>
+        </article>
+         <article class="fleet-item">
+          <img src="Tempo Traveller 12 to 26 Seater.jpg" alt="Bus 27 to 65 Seater">
+          <h4>Tempo Traveller 12 to 26 Seater</h4>
+        </article>
+         <article class="fleet-item">
+          <img src="Mini Coach 27 to 35 seater.webp" alt="Bus 27 to 65 Seater">
+          <h4>Mini Coach 27 to 35 seater</h4>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col contact-col">
+          <h4>Contact Us</h4>
+          <address class="contact-list">
+            Dharuhera Sector 6<br>
+            Dharuhera Rewari, Haryana 123106
+          </address>
+          <p>
+            <a href="tel:+919643544132">+91 9643544132</a><br>
+            <a href="tel:+919818174651">+91 9818174651</a>
+          </p>
+          <p><a href="mailto:gautamtravelsncr@gmail.com">gautamtravelsncr@gmail.com</a></p>
+          <div class="social-links" aria-label="Social links">
+            <a href="https://www.facebook.com/share/1G31LJz2KH/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/gautamtravelsindia" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://whatsapp.com/channel/0029Vb6YV4P7NoZwDi0DAJ0Z" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col useful-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="gallery.html">Our Gallery</a></li>
+            <li><a href="terms.html">Terms &amp; Conditions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col about-col">
+          <h4>About</h4>
+          <p class="lead">Gautam Travels provides reliable cab and travel services across Dharuhera, Rewari and nearby regions. Comfortable vehicles, verified drivers and 24/7 support.</p>
+          <p class="lead">For urgent bookings call <a href="tel:+919643544132">+91 9643544132</a> or chat on WhatsApp.</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <small>&copy; <span id="year"></span> Gautam Travels India — All rights reserved.</small>
+        <small>Designed with care • Contact: <a href="mailto:gautamtravelsncr@gmail.com">gautamtravelsncr@gmail.com</a></small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <div class="fixed-buttons">
+    <a href="https://wa.me/919643544132" class="whatsapp-btn" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="tel:+919643544132" class="call-btn"><i class="fas fa-phone"></i></a>
+  </div>
+</body>
+</html>
